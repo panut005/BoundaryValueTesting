@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="517.0" prefWidth="877.0" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="work1.MainController">
+    <children>
+         <AnchorPane prefHeight="568.0" prefWidth="906.0">
+         <TextField layoutX="522.0" layoutY="69.0" prefHeight="54.0" prefWidth="123.0" fx:id="xMaxValue">
+            <font>
+               <Font size="25.0" />
+            </font>
+         </TextField>
+         <TextField layoutX="226.0" layoutY="69.0" prefHeight="56.0" prefWidth="123.0" fx:id="xMinValue">
+            <font>
+               <Font size="25.0" />
+            </font>
+         </TextField>
+         <Text layoutX="59.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X :" wrappingWidth="67.7968532443046">
+            <font>
+               <Font size="32.0" />
+            </font>
+         </Text>
+         <Text layoutX="421.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max">
+            <font>
+               <Font size="32.0" />
+            </font>
+         </Text>
+         <Text layoutX="133.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Min">
+            <font>
+               <Font size="32.0" />
+            </font>
+         </Text>
+         <TextField fx:id="yMaxValue" layoutX="523.0" layoutY="141.0" prefHeight="56.0" prefWidth="123.0">
+            <font>
+               <Font size="25.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="yMinValue" layoutX="226.0" layoutY="139.0" prefHeight="56.0" prefWidth="123.0">
+            <font>
+               <Font size="25.0" />
+            </font>
+         </TextField>
+         <Text layoutX="63.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y :" wrappingWidth="67.7968532443046">
+            <font>
+               <Font size="32.0" />
+            </font>
+         </Text>
+         <Text layoutX="421.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max">
+            <font>
+               <Font size="32.0" />
+            </font>
+         </Text>
+         <Text layoutX="133.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Min">
+            <font>
+               <Font size="32.0" />
+            </font>
+         </Text>
+         <Button fx:id="calculateButton" layoutX="744.0" layoutY="71.0" mnemonicParsing="false" onAction="#calculateOnAction" prefHeight="44.0" prefWidth="115.0" text="Calculate">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Button>
+         <Button fx:id="clearButton" layoutX="744.0" layoutY="147.0" mnemonicParsing="false" onAction="#clearOnAction" prefHeight="44.0" prefWidth="115.0" text="Clear">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Button>
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="200.0" layoutX="88.0" layoutY="255.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+         <Line endX="-100.20712280273438" endY="239.79290771484375" layoutX="139.0" layoutY="250.0" startX="-94.00001525878906" startY="-7.1999969482421875" />
+         <Line endX="253.33331298828125" endY="-0.5" layoutX="170.0" layoutY="491.0" startX="-130.5" startY="-0.5" />
+         <Circle fx:id="e1Circle" fill="WHITE" layoutX="88.0" layoutY="255.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="f1Circle" fill="WHITE" layoutX="107.0" layoutY="255.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="h1Circle" fill="WHITE" layoutX="88.0" layoutY="273.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="i1Circle" fill="WHITE" layoutX="107.0" layoutY="273.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="b1Circle" fill="WHITE" layoutX="88.0" layoutY="237.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="c1Circle" fill="WHITE" layoutX="107.0" layoutY="237.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="a1Circle" fill="WHITE" layoutX="70.0" layoutY="237.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="d1Circle" fill="WHITE" layoutX="70.0" layoutY="255.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="g1Circle" fill="WHITE" layoutX="70.0" layoutY="273.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="e7Circle" fill="WHITE" layoutX="87.0" layoutY="454.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="f7Circle" fill="WHITE" layoutX="106.0" layoutY="454.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="h7Circle" fill="WHITE" layoutX="87.0" layoutY="472.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="i7Circle" fill="WHITE" layoutX="106.0" layoutY="472.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="b7Circle" fill="WHITE" layoutX="87.0" layoutY="436.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="c7Circle" fill="WHITE" layoutX="106.0" layoutY="436.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="a7Circle" fill="WHITE" layoutX="69.0" layoutY="436.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="d7Circle" fill="WHITE" layoutX="69.0" layoutY="454.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="g7Circle" fill="WHITE" layoutX="69.0" layoutY="472.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="e9Circle" fill="WHITE" layoutX="387.0" layoutY="456.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="f9Circle" fill="WHITE" layoutX="406.0" layoutY="456.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="h9Circle" fill="WHITE" layoutX="387.0" layoutY="474.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="i9Circle" fill="WHITE" layoutX="406.0" layoutY="474.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="b9Circle" fill="WHITE" layoutX="387.0" layoutY="438.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="c9Circle" fill="WHITE" layoutX="406.0" layoutY="438.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="a9Circle" fill="WHITE" layoutX="369.0" layoutY="438.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="d9Circle" fill="WHITE" layoutX="369.0" layoutY="456.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="g9Circle" fill="WHITE" layoutX="369.0" layoutY="474.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="e3Circle" fill="WHITE" layoutX="387.0" layoutY="257.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="f3Circle" fill="WHITE" layoutX="406.0" layoutY="257.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="h3Circle" fill="WHITE" layoutX="387.0" layoutY="275.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="i3Circle" fill="WHITE" layoutX="406.0" layoutY="275.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="b3Circle" fill="WHITE" layoutX="387.0" layoutY="239.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="c3Circle" fill="WHITE" layoutX="406.0" layoutY="239.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="a3Circle" fill="WHITE" layoutX="369.0" layoutY="239.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="d3Circle" fill="WHITE" layoutX="369.0" layoutY="257.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="g3Circle" fill="WHITE" layoutX="369.0" layoutY="275.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="b4Circle" fill="WHITE" layoutX="89.0" layoutY="351.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="c4Circle" fill="WHITE" layoutX="108.0" layoutY="351.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="a4Circle" fill="WHITE" layoutX="71.0" layoutY="351.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="b6Circle" fill="WHITE" layoutX="388.0" layoutY="351.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="c6Circle" fill="WHITE" layoutX="407.0" layoutY="351.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="a6Circle" fill="WHITE" layoutX="370.0" layoutY="351.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="b2Circle" fill="WHITE" layoutX="243.0" layoutY="257.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="c2Circle" fill="WHITE" layoutX="243.0" layoutY="275.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="a2Circle" fill="WHITE" layoutX="243.0" layoutY="239.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="b8Circle" fill="WHITE" layoutX="243.0" layoutY="456.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="c8Circle" fill="WHITE" layoutX="243.0" layoutY="474.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="a8Circle" fill="WHITE" layoutX="243.0" layoutY="438.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Circle fx:id="a5Circle" fill="WHITE" layoutX="243.0" layoutY="351.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+         <Text fx:id="oneText" layoutX="117.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fx:id="twoText" layoutX="252.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fx:id="threeText" layoutX="350.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fx:id="fourText" layoutX="122.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fx:id="fiveText" layoutX="252.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fx:id="sixText" layoutX="350.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fx:id="sevenText" layoutX="117.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fx:id="eightText" layoutX="252.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text fx:id="nineText" layoutX="350.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Text layoutX="39.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Text>
+         <Text layoutX="451.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Text>
+         <Text fx:id="a1Text" layoutX="65.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="b1Text" layoutX="84.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="c1Text" layoutX="102.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="d1Text" layoutX="65.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="e1Text" layoutX="84.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="f1Text" layoutX="104.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="g1Text" layoutX="64.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="h1Text" layoutX="83.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="i1Text" layoutX="105.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="a3Text" layoutX="364.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="b3Text" layoutX="383.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="c3Text" layoutX="401.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="d3Text" layoutX="364.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="e3Text" layoutX="383.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="f3Text" layoutX="403.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="g3Text" layoutX="363.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="h3Text" layoutX="382.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="i3Text" layoutX="404.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="a9Text" layoutX="364.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="b9Text" layoutX="383.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="c9Text" layoutX="401.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="d9Text" layoutX="364.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="e9Text" layoutX="383.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="f9Text" layoutX="403.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="g9Text" layoutX="363.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="h9Text" layoutX="382.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="i9Text" layoutX="404.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="a7Text" layoutX="64.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="b7Text" layoutX="83.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="c7Text" layoutX="101.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="d7Text" layoutX="64.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="e7Text" layoutX="83.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="f7Text" layoutX="103.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="g7Text" layoutX="63.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="h7Text" layoutX="82.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="i7Text" layoutX="104.0" layoutY="478.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="a4Text" layoutX="66.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="b4Text" layoutX="85.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="c4Text" layoutX="103.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="a6Text" layoutX="365.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="b6Text" layoutX="384.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="c6Text" layoutX="402.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="a5Text" layoutX="238.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="a2Text" layoutX="239.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="b2Text" layoutX="239.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="c2Text" layoutX="238.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="a8Text" layoutX="239.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="b8Text" layoutX="239.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <Text fx:id="c8Text" layoutX="238.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+         <ChoiceBox fx:id="typeChoiceBox" layoutX="330.0" layoutY="14.0" prefHeight="44.0" prefWidth="385.0" />
+         <Text layoutX="192.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type">
+            <font>
+               <Font size="32.0" />
+            </font>
+         </Text>
+             <TextArea editable="false" focusTraversable="false" layoutX="505.0" layoutY="246.0" prefHeight="248.0" prefWidth="323.0" AnchorPane.bottomAnchor="74.0" AnchorPane.leftAnchor="505.0" AnchorPane.rightAnchor="78.0" AnchorPane.topAnchor="246.0" fx:id="xyValueTextArea">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </TextArea>
+
+         </AnchorPane>
+
+    </children>
+</AnchorPane>

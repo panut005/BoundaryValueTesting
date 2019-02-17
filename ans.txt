@@ -1,0 +1,45 @@
+Boundary Value testing of n inputs: 4n+1
+Min X: 150, Max X: 180
+Min Y: 40, Max Y: 70
+Box 2
+2: (165,70) Expected Result:fat Accept
+3: (165,69) Expected Result:fat Accept
+Box 2
+2: (165,70) Expected Result:fat Accept
+3: (165,69) Expected Result:fat Accept
+Box 4
+2: (180,55) Expected Result:skinny Accept
+3: (181,55) Expected Result:skinny Accept
+Box 2
+2: (165,70) Expected Result:fat Accept
+3: (165,69) Expected Result:fat Accept
+Box 4
+2: (180,55) Expected Result:skinny Accept
+3: (181,55) Expected Result:skinny Accept
+Box 5
+1: (165,55) Expected Result:Normal Accept
+Box 2
+2: (165,70) Expected Result:fat Accept
+3: (165,69) Expected Result:fat Accept
+Box 4
+2: (180,55) Expected Result:skinny Accept
+3: (181,55) Expected Result:skinny Accept
+Box 5
+1: (165,55) Expected Result:Normal Accept
+Box 6
+1: (179,55) Expected Result:skinny Accept
+2: (180,55) Expected Result:skinny Accept
+Box 2
+2: (165,70) Expected Result:fat Accept
+3: (165,69) Expected Result:fat Accept
+Box 4
+2: (180,55) Expected Result:skinny Accept
+3: (181,55) Expected Result:skinny Accept
+Box 5
+1: (165,55) Expected Result:Normal Accept
+Box 6
+1: (179,55) Expected Result:skinny Accept
+2: (180,55) Expected Result:skinny Accept
+Box 8
+1: (165,41) Expected Result:skinny Accept
+2: (165,40) Expected Result:skinny Accept
