@@ -66,6 +66,7 @@ public class Main {
             for (String an : ANS) {
                 bufferedWriter.write(an);
                 bufferedWriter.newLine();
+                System.out.println(an);
             }
             bufferedWriter.close();
         }
